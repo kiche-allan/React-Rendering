@@ -1,7 +1,8 @@
 import React from 'react'
 
 
-const Child = () => {
+const ChildOne = () => {
+    console.log('ChildOne Render')
   return (
     <div>
         Child Component
@@ -9,4 +10,4 @@ const Child = () => {
   )
 }
 
-export default Child
+export default ChildOne

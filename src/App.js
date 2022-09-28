@@ -2,7 +2,10 @@
 // import UseReducer from "./components/UseReducer/UseReducer";
 // import UseState from "./components/UseState/UseState";
 
-import { ParentChild } from "./components/Parent Child/ParentChild";
+import { GrandParent } from "./components/Optimization/GrandParent";
+// import { ParentOne } from "./components/Optimization/ParentOne";
+// import ChildOne from "./components/Parent Child/Child";
+// import { ParentChild } from "./components/Parent Child/ParentChild";
 
 
 function App() {
@@ -11,7 +14,10 @@ function App() {
       {/* <UseState/> */}
       {/* <UseReducer/> */}
       {/* <ObjectUseState/> */}
-      <ParentChild />
+      {/* <ParentOne>
+        <ChildOne/>
+      </ParentOne> */}
+      <GrandParent/>
     </div>
   );
 }
