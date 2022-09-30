@@ -3,6 +3,7 @@
 // import UseState from "./components/UseState/UseState";
 
 // import { GrandParent } from "./components/Optimization/GrandParent";
+import ParentFour from "./components/Incorrect Optimization/ParentFour";
 import ParentThree from "./components/Incorrect Optimization/ParentThree";
 import ParentTwo from "./components/Optimization/ParentTwo";
 // import { ParentOne } from "./components/Optimization/ParentOne";
@@ -20,7 +21,8 @@ function App() {
         <ChildOne/>
       </ParentOne> */}
       {/* <GrandParent/> */}
-      <ParentThree/>
+      {/* <ParentThree/> */}
+      <ParentFour/>
     </div>
   );
 }
